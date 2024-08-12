@@ -46,7 +46,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Link href="https://fasith-23.github.io/rs_vision_documentation">
+          <Link href="/rs_vision_documentation">
           <h2 className="mb-3 text-2xl font-semibold">
             rs_vision{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
