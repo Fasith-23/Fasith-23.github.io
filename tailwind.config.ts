@@ -8,13 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        sidebar: "#a63a50",
+        'sidebar-text': "#ffffff",
+        secondary: "#118ab2",
+        body: "#000000",
+        line: "#ffffff",
+        accent: "#073b4c",
+        content: "#f0e7d8 ",
+        hover: "#118ab2"
       },
+      fontFamily: {
+        display: ["Helvetica"],
+        body: ["Arial", "Helvetica", "sans-serif"],
+        bitcount: ['"Bitcount Single"', "sans-serif"],
+
+      },
+      
     },
   },
   plugins: [],
 };
+
 export default config;
+
