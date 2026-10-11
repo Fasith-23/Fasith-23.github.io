@@ -16,7 +16,7 @@ export default function PortfolioLayout({
     </aside>
 
     {/* Scrollable content */}
-    <main className="flex min-h-0 overflow-y-auto flex-col px-16 py-8 md:px-8 md:pr-12 md:pt-16">
+    <main className="flex min-h-0 overflow-y-auto flex-col px-6 pt-8 pb-32 sm:pb-8 sm:px-16  md:px-8 md:pr-12 md:pt-16">
       <div className="md:hidden ">
         <Menu />
       </div>

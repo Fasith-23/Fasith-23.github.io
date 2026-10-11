@@ -12,7 +12,7 @@ export default function SkillsPage() {
     
       <Link
         href="/projects"
-        className="mt-12 inline-block text-sm text-orange hover:text-secondary"
+        className="my-2 inline-block text-sm text-sidebar hover:text-secondary"
       >
         View all projects →
       </Link>

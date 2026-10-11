@@ -17,16 +17,16 @@ export default function HomePage() {
             Software Engineer, Game Developer and Designer 
           </p>
           <div className="md:hidden">
-            <section className="sidebar-section mb-2">
+            {/* <section className="sidebar-section mb-2">
               <div className="sidebar-content">
                 <p>
                   I&apos;m <Link href="/me">Fasith</Link>, software engineer and open-source
                   creator. This is my digital garden. 🌱
                 </p>
               </div>
-            </section>
+            </section> */}
           </div>
-          <p className=" text-md text-lg font-light text-body">
+          <p className=" text-sm md:text-lg font-light text-body">
             I also am a Researcher and an Open Source Creator. Welcome to my web house!
           </p>
         </section>

@@ -51,7 +51,7 @@ export const Menu = () => {
     pathname === url || pathname.startsWith(`${url}/`)
     return(
         <section className="sidebar-section font-bitcount mb-6 md:border-b md:pb-4">
-        <nav className="sidebar-nav-links flex w-full justify-between gap-2 md:flex-col">
+        <nav className="sidebar-nav-links flex w-full justify-between sm:gap-2 md:flex-col">
           <div className="sidebar-title-link md:hidden ">
               <Link href="/" className="flex items-center gap-2">
                 <span className="relative sm:h-6 sm:w-6 h-7 w-7 overflow-hidden rounded-md">
@@ -69,7 +69,7 @@ export const Menu = () => {
             <Link
               key={link.url}
               href={link.url}
-              className={`flex items-center gap-2 md:space-y-1 ${
+              className={`flex sm:flex-row flex-col items-center sm:gap-2 md:space-y-1 ${
                 isActive(link.url) ? 'active' : ''
               }`}
             >

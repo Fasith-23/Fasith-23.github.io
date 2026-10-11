@@ -21,7 +21,7 @@ export const SectionHeading = ({
       {href && (
         <a
           href={href}
-          className="flex items-center gap-1 text-md px-6 py-1 font-bold font-bitcount text-sidebar border-2 rounded-3xl border-sidebar hover:text-white hover:bg-sidebar"
+          className="flex items-center gap-1 text-sm sm:text-base px-3 sm:px-6 py-1 font-bold font-bitcount text-sidebar border-2 rounded-3xl border-sidebar hover:text-white hover:bg-sidebar"
         >
           <span>
             {linkTitle

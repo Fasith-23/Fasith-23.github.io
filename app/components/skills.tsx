@@ -58,7 +58,7 @@ export const Skills = () => {
           id={slugify(skill)}
           className="mb-4 inline-block w-full break-inside-avoid rounded-md border-2  border-secondary p-4 align-top scroll-mt-10"
         >
-          <h2 className="text-2xl font-bold">{skill}</h2>
+          <h2 className="sm:text-2xl text-xl font-bold">{skill}</h2>
 
           {items.projects.length > 0 && (
             <div className="mt-5">
